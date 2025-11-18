@@ -3,7 +3,7 @@
 This repository contains the complete solution for Operating Systems Lab Sheet 1 from the ENCS351 course.
 The experiment demonstrates core Linux process management concepts using Python, including forking, executing commands, zombie/orphan processes, /proc inspection, and process prioritization.
 
-##Folder Structure
+## Folder Structure
 
 ```
 LAB_SHEETS/
@@ -152,4 +152,5 @@ Course: B.Tech CSE
 Roll No.: 2301010062
 
 University: K.R. Mangalam University
+
 
