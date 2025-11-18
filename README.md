@@ -5,7 +5,8 @@ Each lab sheet includes Python-based simulations demonstrating concepts such as 
 
 ## Folder Structure
 
-[LAB_SHEETS/] 
+```
+LAB_SHEETS/ 
  ├─ Lab_Sheet_1/
  │   ├─ process_management.py
  │   ├─ output.txt
@@ -16,76 +17,81 @@ Each lab sheet includes Python-based simulations demonstrating concepts such as 
  │   ├─ process_log.txt
  │   ├─ report.pdf
  │   └─ README.md
- └─ README.md   
+ └─ README.md
+
+```
 
 # Lab Sheet Details
 
 ## Lab Sheet 1: Process Creation and Management Using Python (OS Module)
 
-Objectives:
+### Objectives:
 
-Understand the basic Linux process lifecycle
+-Understand the basic Linux process lifecycle
 
-Create child processes using os.fork()
+-Create child processes using os.fork()
 
-Run system commands using os.execvp() or subprocess.run()
+-Run system commands using os.execvp() or subprocess.run()
 
-Demonstrate zombie and orphan processes
+-Demonstrate zombie and orphan processes
 
-Read process details from /proc and modify priority using nice
+-Read process details from /proc and modify priority using nice
 
-Files Included:
+### Files Included:
 
-process_management.py – main program
+-process_management.py – main program
 
-output.txt – sample output
+-output.txt – sample output
 
-report.pdf – explanation of code and results
+-report.pdf – explanation of code and results
 
-Lab Sheet 2: System Startup, Process Creation & Termination Simulation
+## Lab Sheet 2: System Startup, Process Creation & Termination Simulation
 
-Objectives:
+###Objectives:
 
-Simulate system startup and shutdown
+-Simulate system startup and shutdown
 
-Use the multiprocessing module to create parallel processes
+-Use the multiprocessing module to create parallel processes
 
-Log start and end times for each process
+-Log start and end times for each process
 
-Produce a process_log.txt with process lifecycle information
+-Produce a process_log.txt with process lifecycle information
 
-Files Included:
+### Files Included:
 
-system_startup_simulation.py – main script
+-system_startup_simulation.py – main script
 
-process_log.txt – generated log file
+-process_log.txt – generated log file
 
-report.pdf – detailed report
+-report.pdf – detailed report
 
-How to Run
+# How to Run
 
-Prerequisites
+## Prerequisites
 
-Check Python version:
+-Check Python version:
 
-python --version
+-python --version
 
-Run Lab Sheet 1
+-Run Lab Sheet 1
 
-cd Lab_Sheet_1
-python process_management.py
+-cd Lab_Sheet_1
 
-Run Lab Sheet 2
+-python process_management.py
 
-cd Lab_Sheet_2
-python system_startup_simulation.py
+-Run Lab Sheet 2
 
-Output Files
+-cd Lab_Sheet_2
 
-output.txt – Lab Sheet 1 results
+-python system_startup_simulation.py
 
-process_log.txt – Lab Sheet 2 logs
+## Output Files
 
+-output.txt – Lab Sheet 1 results
+
+-process_log.txt – Lab Sheet 2 logs
+
+## Submitted By
 Name: Gunjan Joshi
 Course: B.Tech CSE
 Roll no, 2301010062
