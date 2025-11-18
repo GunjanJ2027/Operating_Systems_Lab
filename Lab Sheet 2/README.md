@@ -40,12 +40,8 @@ LAB_SHEETS/
 
 ### Clone Repo
 ```
-git clone https://github.com/your-username/OS_Lab_Sheet_2.git
-```
+https://github.com/GunjanJ2027/Operating_Systems_Lab.git
 
-### Navigate to the lab folder
-```
-cd OS_Lab_Sheet_2/LAB_SHEETS/Lab_Sheet_2
 ```
 
 ### Run the program
@@ -68,3 +64,4 @@ python system_startup_simulation.py
 **Name:** Gunjan Joshi  
 **Roll No.:** 2301010062  
 **Course:** B.Tech CSE  
+
