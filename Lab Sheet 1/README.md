@@ -1,10 +1,11 @@
-Operating Systems Lab Assignment – Process Creation & Management (ENCS351)
+# Operating Systems Lab Assignment – Process Creation & Management (ENCS351)
 
 This repository contains the complete solution for Operating Systems Lab Sheet 1 from the ENCS351 course.
 The experiment demonstrates core Linux process management concepts using Python, including forking, executing commands, zombie/orphan processes, /proc inspection, and process prioritization.
 
-Folder Structure
+##Folder Structure
 
+```
 LAB_SHEETS/
  ├─ Lab_Sheet_1/
  │   ├─ process_management.py
@@ -13,101 +14,103 @@ LAB_SHEETS/
  │   └─ README.md
  └─ README.md  ← (this main file)
 
-Experiment Title
+```
+
+## Experiment Title
 
 Process Creation and Management Using Python OS Module
 
-Objectives
+## Objectives
 
-Understand the Linux process lifecycle
+-Understand the Linux process lifecycle
 
-Create child processes using os.fork()
+-Create child processes using os.fork()
 
-Execute system commands with os.execvp() and subprocess.run()
+-Execute system commands with os.execvp() and subprocess.run()
 
-Demonstrate zombie and orphan process behavior
+-Demonstrate zombie and orphan process behavior
 
-Inspect processes using /proc/<pid>
+-Inspect processes using /proc/<pid>
 
-Manipulate scheduling priority using os.nice()
+-Manipulate scheduling priority using os.nice()
 
-Concepts Used
+## Concepts Used
 
-os.fork(), os.getpid(), os.getppid()
+-os.fork(), os.getpid(), os.getppid()
 
-os._exit(), os.wait()
+-os._exit(), os.wait()
 
-os.execvp(), subprocess.run()
+-os.execvp(), subprocess.run()
 
-Reading /proc/[pid]/status, /proc/[pid]/exe, /proc/[pid]/fd
+-Reading /proc/[pid]/status, /proc/[pid]/exe, /proc/[pid]/fd
 
-os.nice() for process priority
+-os.nice() for process priority
 
-Lab Tasks Overview
+## Lab Tasks Overview
 
-Task 1 — Process Creation
+### Task 1 — Process Creation
 
-Create N child processes
+-Create N child processes
 
-Each child prints:
+-Each child prints:
 
-Its PID
+-Its PID
 
-Parent PID
+-Parent PID
 
-A message
+-A message
 
-Parent waits for all children using os.wait()
+-Parent waits for all children using os.wait()
 
-Task 2 — Command Execution Using exec()
+### Task 2 — Command Execution Using exec()
 
-Each child executes a system command such as:
+-Each child executes a system command such as:
 
-ls
+-ls
 
-date
+-date
 
-ps
+-ps
 
-Using os.execvp() or subprocess.run().
+-Using os.execvp() or subprocess.run().
 
-Task 3 — Zombie & Orphan Processes
+### Task 3 — Zombie & Orphan Processes
 
-Zombie: Parent does not call wait()
+-Zombie: Parent does not call wait()
 
-Orphan: Parent exits early, child reattached to init (PID 1)
+-Orphan: Parent exits early, child reattached to init (PID 1)
 
-Verification via:
+-Verification via:
 
-ps -el | grep defunct
+-ps -el | grep defunct
 
-Task 4 — Inspect /proc Information
+### Task 4 — Inspect /proc Information
 
-Given a PID:
+-Given a PID:
 
-Read /proc/[pid]/status → Process name, state, memory
+-Read /proc/[pid]/status → Process name, state, memory
 
-Read /proc/[pid]/exe → Executable path
+-Read /proc/[pid]/exe → Executable path
 
-Read /proc/[pid]/fd/ → Open file descriptors
+-Read /proc/[pid]/fd/ → Open file descriptors
 
-Task 5 — Process Prioritization with nice()
+### Task 5 — Process Prioritization with nice()
 
-Create CPU-intensive child processes
+-Create CPU-intensive child processes
 
-Assign priorities:
+-Assign priorities:
 
-High priority (nice -5)
+-High priority (nice -5)
 
-Normal (nice 0)
+-Normal (nice 0)
 
-Low priority (nice +5)
+-Low priority (nice +5)
 
-Observe execution order based on scheduling
+-Observe execution order based on scheduling
 
-How to Run
+## How to Run
 
-Prerequisites
+### Prerequisites
 
 Before running, ensure:
 
@@ -140,9 +143,10 @@ report.pdf → Experiment report with explanation
 
 process_management.py → Main Python program
 
-Submitted by
+# Submitted by
 
 Name: Gunjan Joshi
 Course: B.Tech CSE
 Roll No.: 2301010062
+
 University: K.R. Mangalam University
