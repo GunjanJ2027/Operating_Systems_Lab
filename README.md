@@ -47,7 +47,7 @@ LAB_SHEETS/
 
 ## Lab Sheet 2: System Startup, Process Creation & Termination Simulation
 
-###Objectives:
+### Objectives:
 
 -Simulate system startup and shutdown
 
