@@ -3,8 +3,11 @@
 ## System Calls, VM Detection, and File System Operations
 
 Course Code: ENCS351
+
 Program: B.Tech CSE
+
 Student: Gunjan Joshi
+
 Roll No.: 2301010062
 
 # Overview
@@ -114,5 +117,6 @@ Python 3.x
 Linux or WSL recommended
 
 Bash for VM detection script
+
 
 No external Python libraries required
