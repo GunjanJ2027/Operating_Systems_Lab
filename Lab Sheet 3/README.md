@@ -24,6 +24,7 @@ Each task is implemented using simple Python scripts that reflect how real opera
 
 # Folder Structure
 
+```
 Lab_Sheet_3/
 │
 ├── Task_1_os3task1.py
@@ -33,6 +34,9 @@ Lab_Sheet_3/
 ├── Task_5_os3task5.py
 └── report_LabSheet-3.pdf
 └── README.md
+
+
+```
 
 # 🧪 Assignment Tasks
 ## ✅ Task 1: CPU Scheduling (Priority & Round Robin)
@@ -98,5 +102,6 @@ No external libraries required
 Name: Gunjan Joshi
 
 Roll No.: 2301010062
+
 
 Program: B.Tech CSE, K.R. Mangalam University
