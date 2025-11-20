@@ -17,6 +17,14 @@ LAB_SHEETS/
  │   ├─ process_log.txt
  │   ├─ report.pdf
  │   └─ README.md
+ ├─ Lab_Sheet_3/
+     ├── Task_1_os3task1.py
+     ├── Task_2_os3task2.py
+     ├── Task_3_os3task3.py
+     ├── Task_4_os3task4.py
+     ├── Task_5_os3task5.py
+     └── report_LabSheet-3.pdf
+     └── README.md
  └─ README.md
 
 ```
