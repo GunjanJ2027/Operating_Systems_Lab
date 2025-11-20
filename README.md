@@ -33,45 +33,12 @@ LAB_SHEETS/
 
 ## Lab Sheet 1: Process Creation and Management Using Python (OS Module)
 
-### Objectives:
+## Lab Sheet 2: System Startup, Process Creation, and Termination Simulation in Python
 
--Understand the basic Linux process lifecycle
+## Lab Sheet 3: Simulation of File Allocation, Memory Management, and Scheduling in Python
 
--Create child processes using os.fork()
+## Lab Sheet 4: System Calls, VM Detection, and File System Operations using Python
 
--Run system commands using os.execvp() or subprocess.run()
-
--Demonstrate zombie and orphan processes
-
--Read process details from /proc and modify priority using nice
-
-### Files Included:
-
--process_management.py – main program
-
--output.txt – sample output
-
--report.pdf – explanation of code and results
-
-## Lab Sheet 2: System Startup, Process Creation & Termination Simulation
-
-### Objectives:
-
--Simulate system startup and shutdown
-
--Use the multiprocessing module to create parallel processes
-
--Log start and end times for each process
-
--Produce a process_log.txt with process lifecycle information
-
-### Files Included:
-
--system_startup_simulation.py – main script
-
--process_log.txt – generated log file
-
--report.pdf – detailed report
 
 # How to Run
 
@@ -93,11 +60,15 @@ LAB_SHEETS/
 
 -python system_startup_simulation.py
 
-## Output Files
+-Run Lab Sheet 3
 
--output.txt – Lab Sheet 1 results
+-cd Lab_Sheet_3
 
--process_log.txt – Lab Sheet 2 logs
+-Run Lab Sheet 4
+
+-cd Lab_Sheet_4
+
+
 
 ## Submitted By
 
